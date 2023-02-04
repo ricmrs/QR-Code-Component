@@ -83,6 +83,7 @@ p {
 
   .box {
     padding: 0;
+    border-radius: 15px;
   }
   .card {
     width: 100%;
