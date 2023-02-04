@@ -6,28 +6,19 @@
 }
 
 body {
-  background-color: hsl(218, 28%, 92%);
   font-family: 'Outfit', sans-serif;
   font-size: 100%;
   list-style-type: none;
 }
 
 .container {
+  background-color: hsl(212, 45%, 89%);
   align-items: center;
   display: flex;
   flex-direction: column;
   gap: 30px;
   height: 100vh;
   justify-content: center;
-}
-
-.box {
-  background-color: hsl(212, 45%, 89%);
-  box-shadow: hsl(220, 15%, 55%) 3px 3px 20px;
-  display: flex;
-  justify-content: center;
-  padding: 40px;
-  width: 90vw;
 }
 
 .card {
@@ -77,15 +68,13 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-  body {
-    background-color: hsl(212, 45%, 89%);
-  }
-
-  .box {
-    padding: 0;
-    border-radius: 15px;
-  }
   .card {
-    width: 100%;
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .card {
+    width: 80vw;
   }
 }
